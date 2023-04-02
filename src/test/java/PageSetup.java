@@ -21,6 +21,7 @@ public class PageSetup {
     @AfterEach
     public void teardown() {
         //różnica między driver.close() a driver.quit()
-      //  driver.quit();
+        // Ctrl + /
+        driver.quit();
     }
 }
